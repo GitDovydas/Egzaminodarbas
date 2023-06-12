@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.Film">
+   <children>
+      <Label layoutX="218.0" layoutY="31.0" text="Filmo pavadinimas">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="53.0" layoutY="84.0" prefHeight="77.0" prefWidth="495.0" text="Filmo aprašas">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
